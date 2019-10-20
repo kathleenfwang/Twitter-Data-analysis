@@ -9,7 +9,7 @@ Sentiment analyzer for real-time tweets. Displays a percentage for positive, neg
 - Checks tweets against a pre-defined list of words that are deemed positive or negative 
 
 
-## 2 Steps to use: 
+## Two steps to run: 
  
 - git clone https://github.com/kathleenfwang/twitter-data-analysis.git
 - Run main.py! 
