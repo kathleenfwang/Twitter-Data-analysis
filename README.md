@@ -4,7 +4,7 @@ Sentiment analyzer for real-time tweets. Displays a percentage for positive, neg
 
 ##  Functionality: 
 
-- Retrieves tweets based on user input 
+- Retrieves tweets based on a user inputted string
 - Uses a sentiment analyzer library to detect percentage of positive,negative, and neutral tweets
 - Checks tweets against a pre-defined list of words that are deemed positive or negative 
 
