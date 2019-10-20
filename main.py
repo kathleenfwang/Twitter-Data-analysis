@@ -105,10 +105,10 @@ class TwitterClient(object):
 			new_arr.append(shortened_tweets)
 		print(tweets)
 		for tweet in tweets:
-			if tweet['text'] in pos:  
+			if tweet in pos:  
 				count = count + 1 
 	
-			elif word in neg:
+			elif tweet in neg:
 				count = count - 1 
 	
 
@@ -126,8 +126,12 @@ class TwitterClient(object):
 def main(): 
 	# creating object of TwitterClient Class 
 	api = TwitterClient() 
+
+	#user-inputted query
+	print('****************************************************')
+	query = input('Enter a word you would like to search tweets for: ')
 	# calling function to get tweets 
-	tweets = api.get_tweets(query = 'girl', count = 200) #returned 
+	tweets = api.get_tweets(query, count = 200) #returned 
     
 
 	# picking positive tweets from tweets 
